@@ -22,6 +22,6 @@
 |            | Memento                 | [ ]       | [ ]          |
 |            | Observer                | [x]       | [ ]          |
 |            | State                   | [ ]       | [ ]          |
-|            | Strategy                | [ ]       | [ ]          |
+|            | Strategy                | [x]       | [ ]          |
 |            | Template Method         | [ ]       | [ ]          |
 |            | Visitor                 | [ ]       | [ ]          |
