@@ -1,13 +1,9 @@
 <?php
 declare(strict_types=1);
 
-require_once'observable.interface.php';
-require_once'observer.interface.php';
 require_once'observable.class.php';
 require_once'observer.class.php';
 
-use ObserverPattern\ObservableInterface;
-use ObserverPattern\ObserverInterface;
 use ObserverPattern\Observable;
 use ObserverPattern\Observer;
 

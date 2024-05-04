@@ -1,6 +1,8 @@
 <?php
 namespace ObserverPattern;
 
+require_once'observable.interface.php';
+
 Class Observable implements ObservableInterface {
     private array $observers = [];
     private int $value;
