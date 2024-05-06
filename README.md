@@ -6,7 +6,7 @@
 |            | Builder                 | [ ]       | [ ]          |
 |            | Factory Method          | [ ]       | [ ]          |
 |            | Prototype               | [ ]       | [ ]          |
-|            | Singleton               | [ ]       | [ ]          |
+|            | Singleton               | [x]       | [ ]          |
 | Structural | Adapter                 | [ ]       | [ ]          |
 |            | Bridge                  | [ ]       | [ ]          |
 |            | Composite               | [ ]       | [ ]          |
