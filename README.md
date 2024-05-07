@@ -20,7 +20,7 @@ Design Patterns are not a specific piece of code, but a concept you need to adap
 |            | Builder                 |           |              |       |
 |            | Factory Method          |           |              |       |
 |            | Prototype               |           |              |       |
-|            | Singleton               | ✅        | ✅           |       |
+|            | Singleton               | ✅        | ✅           | ✅    |
 | Structural | Adapter                 |           |              |       |
 |            | Bridge                  |           |              |       |
 |            | Composite               |           |              |       |
