@@ -1,7 +1,7 @@
 <?php
 namespace Singleton;
 
-Class Singleton {
+final class Singleton {
     private static Singleton $instance;
 
     private function __construct() {

@@ -1,7 +1,7 @@
 <?php
 namespace SingletonExample;
 
-Class Settings {
+final class Settings {
     private static Settings $instance;
     private string $language;
     private array $supportedLanguages = ['en', 'de'];
@@ -9,7 +9,6 @@ Class Settings {
     private array $supportedUnitSystems = ['metric', 'imperial'];
 
     private function __construct() {
-        // private constructor to prevent instantiation
         $this->language = $this->supportedLanguages[0];
         $this->unitSystem = $this->supportedUnitSystems[0];
     }
