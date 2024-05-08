@@ -1,5 +1,5 @@
 <?php
-namespace ObserverPattern;
+namespace ObserverBase;
 
 require_once'observer.interface.php';
 

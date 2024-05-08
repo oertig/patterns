@@ -1,5 +1,5 @@
 <?php
-namespace Strategy;
+namespace StrategyBase;
 
 Class Context {
     private Strategy $strategy;

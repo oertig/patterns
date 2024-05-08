@@ -1,5 +1,5 @@
 <?php
-namespace Strategy;
+namespace StrategyBase;
 
 require_once 'strategy.interface.php';
 

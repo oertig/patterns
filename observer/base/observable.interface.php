@@ -1,5 +1,5 @@
 <?php
-namespace ObserverPattern;
+namespace ObserverBase;
 
 interface ObservableInterface {
     public function attach(Observer $observer): void;

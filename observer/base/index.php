@@ -4,8 +4,8 @@ declare(strict_types=1);
 require_once'observable.class.php';
 require_once'observer.class.php';
 
-use ObserverPattern\Observable;
-use ObserverPattern\Observer;
+use ObserverBase\Observable;
+use ObserverBase\Observer;
 
 $observable = new Observable();
 $observer = new Observer();

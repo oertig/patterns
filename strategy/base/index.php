@@ -5,9 +5,9 @@ require_once 'context.class.php';
 require_once 'strategyA.class.php';
 require_once 'strategyB.class.php';
 
-use Strategy\Context;
-use Strategy\StrategyA;
-use Strategy\StrategyB;
+use StrategyBase\Context;
+use StrategyBase\StrategyA;
+use StrategyBase\StrategyB;
 
 // run code with strategyA
 $context = new Context(new StrategyA());
