@@ -1,22 +1,23 @@
 <?php
 declare(strict_types=1);
 
-require_once 'creator.class.php';
-require_once 'product.interface.php';
-require_once 'concreteCreatorA.class.php';
-require_once 'concreteCreatorB.class.php';
-require_once 'concreteProductA.class.php';
-require_once 'concreteProductB.class.php';
+require_once 'vehicle.class.php';
+require_once 'boat.class.php';
+require_once 'car.class.php';
+require_once 'plane.class.php';
 
-use FactoryMethodBase\Creator;
-use FactoryMethodBase\ConcreteCreatorA;
-use FactoryMethodBase\ConcreteCreatorB;
+use FactoryMethodExample\Vehicle;
+use FactoryMethodExample\Boat;
+use FactoryMethodExample\Car;
+use FactoryMethodExample\Plane;
 
-function clientCode(Creator $creator) {
-    $product = $creator->factoryMethod()->operation();
-    print_r($product);
+function travelByVehicle(Vehicle $vehicle) {
+    echo "I am traveling by ".$vehicle->getVehicleName().".<br>\n";
+    $vehicle->moveWithVehicle();
+    echo "I have arrived.<br>\n<br>\n";
 }
 
-clientCode(new ConcreteCreatorA());
-clientCode(new ConcreteCreatorB());
+travelByVehicle(new Boat());
+travelByVehicle(new Car());
+travelByVehicle(new Plane());
 ?>
